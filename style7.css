@@ -1,227 +1,237 @@
 header {
-  margin: 0;
-  background: linear-gradient(rgb(110, 27, 27), rgb(255, 0, 0));
+ margin: 0;
+ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 h1 {
-  font-style: italic;
-  font-family: Helvetica, sans-serif;
-  font-weight: 400;
-  color: white;
-  padding: 1em;
-  margin: 12px 12px 0 12px;
+ font-style: italic;
+ font-family: Helvetica, sans-serif;
+ font-weight: 400;
+ color: white;
+ padding: 1em;
+ margin: 12px 12px 0 12px;
 }
 
 h2 {
-  font-family: Helvetica, sans-serif;
-  margin-top: 10px;
-  color: rgb(255, 255, 255);
+ font-family: Helvetica, sans-serif;
+ margin-top: 10px;
+ color: rgb(255, 255, 255);
 }
 
 
 .item1 {
-  grid-area: header;
+ grid-area: header;
 }
 
 .item2 {
-  grid-area: menu;
+ grid-area: menu;
 }
 
 .item3 {
-  grid-area: main
-  color: black;
+ grid-area: main;
+ color: black;
 }
 
 .item4 {
-  grid-area: footer;
+ grid-area: footer;
 }
 
 .item5 {
-  grid-area: right;
+ grid-area: right;
+ color: black;
 }
 
 .item6 {
-  grid-area: galleryLeft;
+ grid-area: galleryLeft;
 }
 
 .item7 {
-  grid-area: galleryCenter;
+ grid-area: galleryCenter;
 }
 
 .item8 {
-  grid-area: galleryRight;
+ grid-area: galleryRight;
 }
 
 .grid-container {
-  background-color: white;
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu menu menu menu menu menu'
-    'right right main main main main'
-    'footer footer footer footer footer footer';
-  max-width: 1024px;
-  margin: auto;
-  border: 5px solid white;
+ background-color: white;
+ color: black;
+ display: grid;
+ grid-template-areas:
+   'header header header header header header'
+   'menu menu menu menu menu menu'
+   'right right main main main main'
+   'footer footer footer footer footer footer';
+ max-width: 1024px;
+ margin: auto;
+ border: 5px solid blue;
 }
 
 .grid-container-about {
-  background-color: white;
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu menu menu menu menu menu'
-    'main main main main right right'
-    'footer footer footer footer footer footer';
-  max-width: 1024px;
-  margin: auto;
-  border: 5px solid white;
+ background-color: white;
+ color: black;
+ display: grid;
+ grid-template-areas:
+   'header header header header header header'
+   'menu menu menu menu menu menu'
+   'main main main main right right'
+   'footer footer footer footer footer footer';
+ max-width: 1024px;
+ margin: auto;
+ border: 5px solid blue;
 }
 
 .grid-container-gallery {
-  background-color: white;
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu menu menu menu menu menu'
-    'galleryLeft galleryLeft galleryCenter galleryCenter galleryRight galleryRight'
-    'footer footer footer footer footer footer';
-  max-width: 1024px;
-  margin: auto;
-  border: 5px solid white;
+ background-color: white;
+ color: black;
+ display: grid;
+ grid-template-areas:
+   'header header header header header header'
+   'menu menu menu menu menu menu'
+   'galleryLeft galleryLeft galleryCenter galleryCenter galleryRight galleryRight'
+   'footer footer footer footer footer footer';
+ max-width: 1024px;
+ margin: auto;
+ border: 5px solid rgb(0, 0, 0);
 }
 
 .articleImage {
-  float: left;
-  border: 3px solid rgb(0, 0, 0);
-  margin: 0 1em 1em 0;
-  max-width: 300px;
+ float: left;
+ border: 3px solid rgb(0, 0, 0);
+ margin: 0 1em 1em 0;
+ max-width: 300px;
 }
 .articleImage2 {
-  float: right;
-  border: 3px solid rgb(0, 0, 0);
-  margin: 0 0 1em 1em;
-  max-width: 300px;
+ float: right;
+ border: 3px solid rgb(0, 0, 0);
+ margin: 0 0 1em 1em;
+ max-width: 300px;
 }
 
 nav {
-  margin: 1em 0 1em 0;
+ margin: 1em 0 1em 0;
 
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  background-color: white;
+ margin: 0;
+ padding: 0;
+ list-style-type: none;
+ background-color: lightblue;
 
 }
 
 nav li {
-  width: 100%;
+ width: 100%;
 
 
 }
 
 nav li a {
-  float: left;
-  padding: 15px;
-  color: lightblue;
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);  
-  text-decoration: none;
-  width: calc(25% - 34.5px);
-  text-align: left;
-  font-weight: 600;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
-  margin-right: 6px;
+ float: left;
+ padding: 15px;
+ color: lightblue;
+ background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+ text-decoration: none;
+ width: calc(25% - 34.5px);
+ text-align: left;
+ font-weight: 600;
+ font-size: 20px;
+ font-family: Helvetica, sans-serif;
+ margin-right: 6px;
 
 }
 
 .noBorderRight {
-  margin-right: 0;
+ margin-right: 0;
 }
 
 .active {
-  color: white;
+ color: white;
 }
 
 nav li a:hover {
-  background: linear-gradient(rgb(113, 0, 0), rgb(255, 0, 0));
+ background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
 }
 
 .topThree {
-  font-family: Georgia, serif;
-  color: black
+ font-family: Georgia, serif;
+ color: black;
 } 
 
 p a {
-  color: rgb(0, 0, 0);
-  text-decoration: none;
+ color: rgb(0, 0, 0);
+ text-decoration: none;
 }
 
 a {
-  color:white
+ color:white
 }
 
 p a:hover {
-  color: rgb(0, 0, 0);
-  text-decoration: underline;
+ color: rgb(0, 0, 0);
+ text-decoration: underline;
 }
 
 hr {
-  border-bottom: 3px solid rgb(0, 0, 0);
-  margin-bottom: 1em;
-  margin-top: 1em;
+ border-bottom: 3px solid rgb(0, 0, 0);
+ margin-bottom: 1em;
+ margin-top: 1em;
 }
 
 footer {
 
-  font-family: Verdana, sans-serif;
-  font-style: italic;
-  background-color: red;
-  color: white;
-  border-top: 5px solid rgb(0, 0, 0);
-  padding: 1em;
+ font-family: Verdana, sans-serif;
+ font-style: italic;
+ background-color: red;
+ color: white;
+ border-top: 5px solid blue;
+ padding: 1em;
 
 }
 
-
-
-body {
-  background-image:url(tenaciousbackground.png)
+main {
+ padding: 1em;
 }
 
 .item5 {
-  background-color: lightskyblue;
-  padding: 1em;
-  font-weight: 600;
-  text-align: justify;
+ background-color: lightblue;
+ padding: 1em;
+ font-weight: 600;
+ text-align: justify;
 }
 
 .item5 h2 {
-  border-bottom: 2px solid lightskyblue;
+ border-bottom: 2px solid rgb(0, 0, 0);
 
 }
 
 #italic {
-  font-style: italic;
+ font-style: italic;
 }
 
 a {
-  color: lightblue;
-  text-decoration: none;
+ color: lightblue;
+ text-decoration: none;
 }
 
 .galleryImage {
-  width: 100%;
+ width: 100%;
 }
 
 .galleryItem {
-  padding: 1.5em;
+ padding: 1.5em;
 }
 
 
 p {
-  color: white;
+ color: white;
+}
+
+h2{
+ color: blue
+}
+
+main{
+ color: black;
 }
