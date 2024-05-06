@@ -1,20 +1,22 @@
 body {
-    background-color: #999999;
+    background-color: turquoise;
+    background-image: url(Tree.jpg);
+    background-size: cover;
    }
    
    #wrapper {
     margin: 24px auto;
     width: 1200px;
-    border: 1px solid black;
+    border: 1px solid rgba(81, 120, 114, 1);
     padding: 24px;
-    background-color: #ffffff;
+    background-color: rgba(81, 120, 114, 1);
     display: grid;
     grid-template-rows: repeat(12, 100px);
     grid-template-columns: repeat(12, 100px);
    }
    
    .dummycolumn {
-    background-color:  rgba(255, 187, 0, 0.841);
+    background-color:  rgba(255, 187, 0, 1);
     grid-row: 1 / 1;
     grid-column: 1 / 13; 
    }
@@ -104,6 +106,8 @@ body {
     grid-column: 1 / 13;
     color: #ffffff;
     font-family: "Oswald", sans-serif;
+    background-image: url(Tree.jpg);
+    background-size: cover;
    }
    
    .dummycolumn6 {

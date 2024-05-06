@@ -1,5 +1,7 @@
 body {
-    background-color:  brown;
+    background-color: brown;
+    background-image: url(tree.JPG);
+    background-size: cover;
 }
    #wrapper {
     margin: 24px auto;
@@ -107,6 +109,8 @@ body {
     grid-column: 1 / 13;
     color: #ffffff;
     font-family: "Oswald", sans-serif;
+    background-image: url(Tree.jpg);
+    background-size: cover;
    }
    
    .dummycolumn6 {
